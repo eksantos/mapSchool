@@ -34,7 +34,7 @@ form{
 	/*background: red;*/
 	margin-bottom: 10%;
 	margin-left: 9%;  
-	color: #d3d5fd;
+	color: #fff;
 	font-size: 1em;
 }
 
@@ -58,7 +58,7 @@ input[type=text]:focus, input[type=password]:focus, button:focus{
    	outline:none;
 }
 
-button{
+button#entrar{
 	background-color: #FF8C00;
 	padding: 2% 4%;
 	margin-top: 6%;
@@ -68,6 +68,7 @@ button{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	float: right;
 	clear: both;
+	cursor: pointer;
 }
 
 button:hover{ background-color: #FFA500}
@@ -94,6 +95,7 @@ button:hover{ background-color: #FFA500}
 #divCadastro a{
 	text-decoration: none;
 	color: white;
+	cursor: pointer;
 }
 
 #divsVerticais{

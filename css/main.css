@@ -106,12 +106,6 @@ div#comoSist{
 	margin-top: 3%;
 	margin-right: 5%;
 	text-align: center;
-	-webkit-animation-name: flutuando; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-	animation-name: flutuando;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 
 div#comoSist a{
@@ -341,8 +335,9 @@ div#midiaSocial h3{
 }
 
 div#midiaSocial img{
-	width: 42px;
+	width: 35px;
 	height: auto;
+	padding: 0 1%;
 }
 
 div#divMenuRodape{
@@ -390,9 +385,5 @@ div#termosUso{
 
 /***ANIMACAO***/
 
-@keyframes flutuando{
-    0%   {left:0px; top:0px;}
-    50%  {bottom:50px; top:50px;} 
-    100% {left:0px; top:0px;}
-}
+
 /***FIMANIMACAO***/
