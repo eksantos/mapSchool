@@ -280,7 +280,7 @@ textarea{
 	background-color: #474a56;
 	border: 1px solid #FFA500;
 	color:white;
-	margin-top: 1%;  
+	margin-top: 4%;  
 	padding: 1%;
 	font-size: 1.1em;
 	width: 90%;
@@ -335,8 +335,14 @@ div#midiaSocial{
 }
 
 div#midiaSocial h3{ 
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	font-weight: normal;
+	
+}
+
+div#midiaSocial img{
+	width: 42px;
+	height: auto;
 }
 
 div#divMenuRodape{
@@ -366,7 +372,9 @@ ul#ulTermosUso li a img{
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-    padding: 3%
+	padding: 3%;
+	width: 42px;
+	height: auto;
 }
 
 ul#ulTermosUso li, ul#ulTermosUso li a{	display: block;}
@@ -377,6 +385,8 @@ div#termosUso{
 	text-align: center;
 	padding-top: 5%;
 }
+
+
 
 /***ANIMACAO***/
 
