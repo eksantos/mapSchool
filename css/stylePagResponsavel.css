@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    /*background: #474a56;*/
+    background: #fff;
+}
+
+#container{
+    width: 80%;
+    height: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:2.3em;
+    font-weight: normal;
+    color:#bcbab8;
+    /*border-bottom: 1px solid #bcbab8;*/
+    
+}
+
+h2{
+    width: 55%;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:#63686e;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+form#formCadResponsavel{
+    width: 60%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: red;*/
+}
+
+#formCadResponsavel p{
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 2%;
+    font-size: 1.3em;
+    color:#63686e;
+}
+
+#formCadResponsavel input{
+	border-bottom: 1px solid #FFA500;
+	width: 100%;
+	color:#63686e;
+    padding: 2% 1%;
+    margin-top: 2%;
+    /*font-size: 0.9em;*/
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input[type=tel]:focus{ 
+    font-size: 1.1em;
+    outline:none;
+}
+
+#formCadResponsavel button{
+	background-color: #FF8C00;
+	padding: 2% 4%;
+	width: 20%;
+	color: white;
+	font-size: 1.2em;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: right;
+    clear: both;
+    margin-right: 3%;
+}
+
+#formCadResponsavel button:hover{ background-color: #FFA500}
+#formCadResponsavel button:focus{outline:none}

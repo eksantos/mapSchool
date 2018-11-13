@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro da Escola</title>
+	<link rel="stylesheet" type="text/css" href="css/styleMenu.css">
+	<link rel="stylesheet" type="text/css" href="css/styleRodape.css">
+	<link rel="stylesheet" type="text/css" href="css/stylePagResponsavel.css">
+</head>
+<body>
+
+	<header>
+		<div id="headMenu">
+			<div id="divLogo">
+				<a href="index.html"><img src="imgs/logo_normalHm3.png" alt=" "></a>
+			</div>
+
+			<nav id="navMenu">
+				<ul id="ulMenu">
+					<li><a href="#divSobre">Quem Somos</a></li>
+					<li><a href="#divContato">Contato</a></li>
+					<li id="user"><a href="login.html">Login/Cadastro</a></li>	
+				</ul>	
+			</nav>		
+		</div>
+	</header>
+
+	<div id="container">
+
+		<h1>MAIS TRANQUILIDADE PARA PAIS E ALUNOS!</h1>
+		<H2>CADASTRO DA ESCOLA</H2>
+
+		<form id="formCadResponsavel" name="formCadResponsavel" action="" method="post" accept-charset="utf-8">
+			<p>
+				<label for="nameInst">Nome da Instituição</label><br/>
+				<input id="nameInst" name="nameInst" type="text" size="50"/>
+			</p>
+
+			<p>
+				<label for="emailInst">E-mail da Instituição</label><br/>
+				<input id="emailInst" name="emailInst" type="email" size="50"/>
+			</p>
+
+			<p>
+				<label for="telefoneInst">Telefone </label><br/>
+				<input id="telefoneInst" name="telefoneInst" type="tel" size="15"/>
+			</p>
+
+			<p>
+				<label for="enderecoInst">Endereço </label><br/>
+				<input id="enderecoInst" name="enderecoInst" type="text" size="15"/>
+			</p>
+			
+			<button type="submit" value="submit" id="enviar">Enviar</button>
+
+		</form>
+
+
+	</div>
+
+	<footer>
+
+		<div id="divMenuRodape">
+			<ul id="ulMenuRodape">
+				<li><a href="#">DÚVIDAS</a></li>
+				<li><a href="#">MAPA DO SITE</a></li>
+			</ul>
+		</div>
+		
+		<div id="midiaSocial">
+			<h3>MÍDIAS SOCIAIS</h3>
+			<a href="https://www.instagram.com/teammapschool/"><img src="imgs/iconInsta.png" alt="Icone do Instagram"></a>
+			<a href="https://www.facebook.com/MapSchool-975725045945568/"><img src="imgs/iconFace.png" alt="Icone do Facebook "></a>
+		</div>
+
+		<div id="termosUso">
+			<ul id="ulTermosUso">
+			<li>
+				<a href="#">TERMOS DE USO<img src="imgs/iconTermoUso.png" alt=" "></a>
+				
+			</li>
+		</ul>
+		</div>
+		
+	</footer>
+
+</body>
+</html>
