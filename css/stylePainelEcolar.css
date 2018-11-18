@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    /*background: #474a56;*/
+    background: #fff;
+}
+
+#container{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+div.blocosFlexs{
+    display: flex;
+    background: red;
+    width: 100%;
+}
+
+h1{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:2.3em;
+    font-weight: normal;
+    color:#bcbab8;
+    /*border-bottom: 1px solid #bcbab8;*/
+    
+}
+
+h2, h3{
+    width: 90%;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    color:#63686e;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+section#introEscola{
+    background: blue;
+    width: 50%;
+}
+
+section#introEscola h3{
+    margin-top: 2%;
+}
+
+section#introEscola p{
+    background: blue;
+    width: 90%;
+}
+
+nav#navPainelEscolar{
+    width: 50%;
+    background: orange;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.opcPaineis li a{
+    width: 50%;
+    display: block;
+    padding: 4%;
+    margin: 3%; 
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:1.2em;
+    border-radius: 20px;
+}
+
+/*
+* GERAL
+*/
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}

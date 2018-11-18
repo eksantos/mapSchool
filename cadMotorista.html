@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro do Motorista</title>
+	<link rel="stylesheet" type="text/css" href="css/styleMenuPaineis.css">
+	<link rel="stylesheet" type="text/css" href="css/styleRodape.css">
+	<link rel="stylesheet" type="text/css" href="css/styleCadMotorista.css">
+</head>
+<body>
+
+	<header>
+		<div id="headMenu">
+			<div id="divLogo">
+				<a href="index.html"><img src="imgs/logo_normalHm3.png" alt=" "></a>
+			</div>
+
+			<nav id="navMenu">
+				<ul id="ulMenu">
+					<li id="btnSair"><a href="login.html">SAIR</a></li>	
+				</ul>	
+			</nav>		
+		</div>
+	</header>
+
+	<div id="container">
+    
+		<h1>PAINEL ESCOLAR</h1>
+		<H2>CADASTRAR MOTORISTA</H2>
+
+		<form id="formCadMotorista" name="formCadMotorista" action="" method="post" accept-charset="utf-8">
+			<p>
+				<label for="nameApelido">Nome Fantasia do Transporte Escolar </label><br/>
+				<input id="nameApelido" name="nameApelido" type="text"/>
+			</p>
+
+            <p>
+				<label for="nameMoto">Nome Motorista *</label><br/>
+				<input id="nameMoto" name="nameMoto" type="text"/>
+			</p>
+
+            <p>
+				<label for="cpfMoto">CPF Motorista *</label><br/>
+				<input id="cpfMoto" name="cpfMoto" type="number"/>
+			</p>
+
+            <p>
+				<label for="nameAux">Nome Auxiliar *</label><br/>
+				<input id="nameAux" name="nameAux" type="text"/>
+            </p>
+
+            <p>
+				<label for="cpfAux">CPF Auxiliar *</label><br/>
+				<input id="cpfAux" name="cpfAux" type="number"/>
+            </p>
+            
+			<p>
+				<label for="emailMoto">E-mail</label><br/>
+				<input id="emailMoto" name="emailMoto" type="email" size="50"/>
+			</p>
+
+			<p>
+				<label for="telefoneMoto">Celular *</label><br/>
+				<input id="telefoneMoto" name="telefoneMoto" type="tel" size="15"/>
+			</p>
+
+			<p>
+				<label for="idMoto">ID Motorista *</label><br/>
+				<input id="idMoto" name="idMoto" type="text" size="15"/>
+            </p>
+            
+            <p>
+				<label for="senhaMoto">Senha *</label><br/>
+				<input id="senhaMoto" name="senhaMoto" type="text" size="15"/>
+            </p>
+            
+            <p>
+				<label for="senhaConfMoto">Confirmar Senha *</label><br/>
+				<input id="senhaConfMoto" name="senhaConfMoto" type="text" size="15"/>
+			</p>
+			
+			<button type="submit" value="submit" id="registrarMoto">Registrar</button>
+
+		</form>
+
+
+	</div>
+
+	<footer>
+
+		<div id="divMenuRodape">
+			<ul id="ulMenuRodape">
+				<li><a href="#">DÚVIDAS</a></li>
+				<li><a href="#">MAPA DO SITE</a></li>
+			</ul>
+		</div>
+		
+		<div id="midiaSocial">
+			<h3>MÍDIAS SOCIAIS</h3>
+			<a href="https://www.instagram.com/teammapschool/"><img src="imgs/iconInsta.png" alt="Icone do Instagram"></a>
+			<a href="https://www.facebook.com/MapSchool-975725045945568/"><img src="imgs/iconFace.png" alt="Icone do Facebook "></a>
+		</div>
+
+		<div id="termosUso">
+			<ul id="ulTermosUso">
+			<li>
+				<a href="#">TERMOS DE USO<img src="imgs/iconTermoUso.png" alt=" "></a>
+				
+			</li>
+		</ul>
+		</div>
+		
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+*{margin: 0; padding: 0; border:0;}
+
+header{
+	width: 100%;
+	height: 6rem;	
+	background-color: #474a56;
+}
+
+div#headMenu{
+	width: 100%;
+	height: 6rem;
+	box-shadow: 5px 2px 18px #393e46;
+}
+
+div#divLogo{
+	width: 30%;
+	/*background-color: red;*/
+	float: left;
+	margin-left: 5%;
+}
+
+div#divLogo img{
+	/*width: 50%;
+	height: auto;*/
+	margin-bottom: 5%;
+	margin-top: 5%;
+	max-width: 100%;
+}
+/******MENUS******/
+
+nav#navMenu{
+	width: 20%;
+	float: right;
+	/*background-color: green;*/
+}
+
+ul#ulMenu{
+	margin-top: 12%;
+    list-style: none;
+}
+
+#ulMenu li{
+	display: inline-block;
+    /*background-color: orange;*/
+    float: right;
+	margin-right: 32%;
+}
+
+#ulMenu li#btnSair a{
+	padding: 20%;
+	color: white;
+	/*color: #474a56;*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.15);
+	background-color: #a7d129;
+	transition-duration: 0.5s;
+    border: 1px solid #a7d129;
+    text-decoration: none;
+    font-size: 1.1em;
+	font-family: 'Muli', sans-serif;
+}
+
+#ulMenu li#btnSair a:hover{
+	background-color: #a7d41e;
+	color: white;
+}
+
+/*******FIM MENU******/
