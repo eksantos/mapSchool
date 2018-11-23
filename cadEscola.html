@@ -5,7 +5,7 @@
 	<title>Cadastro da Escola</title>
 	<link rel="stylesheet" type="text/css" href="css/styleMenu.css">
 	<link rel="stylesheet" type="text/css" href="css/styleRodape.css">
-	<link rel="stylesheet" type="text/css" href="css/stylePagResponsavel.css">
+	<link rel="stylesheet" type="text/css" href="css/styleCadEscola.css">
 </head>
 <body>
 
@@ -30,7 +30,8 @@
 		<h1>MAIS TRANQUILIDADE PARA PAIS E ALUNOS!</h1>
 		<H2>CADASTRO DA ESCOLA</H2>
 
-		<form id="formCadResponsavel" name="formCadResponsavel" action="" method="post" accept-charset="utf-8">
+		<!--<form id="formCadResponsavel" name="formCadResponsavel" action="" method="post" accept-charset="utf-8">-->
+		<form id="formCadEscola" name="formCadEscola">
 			<p>
 				<label for="nameInst">Nome da Instituição</label><br/>
 				<input id="nameInst" name="nameInst" type="text" size="50"/>
@@ -51,10 +52,11 @@
 				<input id="enderecoInst" name="enderecoInst" type="text" size="15"/>
 			</p>
 			
-			<button type="submit" value="submit" id="enviar">Enviar</button>
-
+			<a href="loginCad.html">
+				<button type="button" value="cadastrar" id="btnCadEscola">CADASTRAR</button>
+			</a>
+			
 		</form>
-
 
 	</div>
 

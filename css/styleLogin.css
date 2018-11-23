@@ -62,7 +62,7 @@ button#entrar{
 	background-color: #FF8C00;
 	padding: 2% 4%;
 	margin-top: 6%;
-	width: 30%;
+	width: 35%;
 	color: white;
 	font-size: 1.2em;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -71,7 +71,7 @@ button#entrar{
 	cursor: pointer;
 }
 
-button:hover{ background-color: #FFA500}
+button#entrar:hover{ background-color: #FFA500}
 
 #esqueciSenha{
 	display: block;
@@ -125,4 +125,14 @@ footer{
 	bottom: 0;
 	text-align: center;
 	color: #474a56
+}
+
+/*MSG SUCESSO*/
+div.msgSucesso{
+	background: #beeb9f;
+	text-align: center;
+	color: #096c47;
+	font-size: 1.2em;
+	padding: 3% 0;
+	margin: 3%;
 }

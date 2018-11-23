@@ -12,10 +12,9 @@ body{
 
 #container{
     width: 80%;
-    height: auto;
+    height: 45rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10%;
 }
 
 h1{
@@ -43,7 +42,7 @@ h2{
     font-weight: normal;
 }
 
-form#formCadMotorista{
+form#formCadEscola{
     width: 60%;
     margin-top: 4%;
     margin-left: auto;
@@ -51,7 +50,7 @@ form#formCadMotorista{
     /*background: red;*/
 }
 
-#formCadMotorista p{
+#formCadEscola p{
 	width: 90%;
 	margin-left: auto;
     margin-right: auto;
@@ -60,7 +59,7 @@ form#formCadMotorista{
     color:#63686e;
 }
 
-#formCadMotorista input{
+#formCadEscola input{
 	border-bottom: 1px solid #FFA500;
 	width: 100%;
 	color:#63686e;
@@ -74,7 +73,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input
     outline:none;
 }
 
-#formCadMotorista button{
+#formCadEscola a button{
 	background-color: #FF8C00;
 	padding: 2% 4%;
 	width: 30%;
@@ -86,5 +85,5 @@ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input
     margin-right: 3%;
 }
 
-#formCadMotorista a button:hover{ background-color: #FFA500}
-#formCadMotorista a button:focus{outline:none}
+#formCadEscola a button:hover{ background-color: #FFA500}
+#formCadEscola a button:focus{outline:none}

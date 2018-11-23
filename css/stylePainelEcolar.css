@@ -18,13 +18,7 @@ body{
     margin-bottom: 10%;
 }
 
-div.blocosFlexs{
-    display: flex;
-    background: red;
-    width: 100%;
-}
-
-h1{
+div#container h1{
     width: 60%;
     margin-top: 10%;
     margin-left: auto;
@@ -38,33 +32,19 @@ h1{
     
 }
 
-h2, h3{
+/*h2, h3{
     width: 90%;
     margin-top: 7%;
     margin-bottom: 1%;
     color:#63686e;
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-}
-
-section#introEscola{
-    background: blue;
-    width: 50%;
-}
-
-section#introEscola h3{
-    margin-top: 2%;
-}
-
-section#introEscola p{
-    background: blue;
-    width: 90%;
-}
+}*/
 
 nav#navPainelEscolar{
     width: 50%;
-    background: orange;
-    margin-top: 4%;
+    /*background: orange;*/
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,18 +52,22 @@ nav#navPainelEscolar{
 ul.opcPaineis li a{
     width: 50%;
     display: block;
-    padding: 4%;
+    padding: 2% 4%;
     margin: 3%; 
-    background: green;
+    /*background: #a6cb12;*/
+    background: #eeeeee;
+    /*border: 1px solid #474a56;*/
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    /*color: white;*/
+    color: #474a56;
     text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.2em;
-    border-radius: 20px;
+    font-size:1em;
 }
 
+ul.opcPaineis li a:hover{
+    background: #bceb3c;
+}
 /*
 * GERAL
 */

@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Painel Escolar</title>
+	<title>Lista dos Motoristas</title>
 	<link rel="stylesheet" type="text/css" href="css/styleMenuPaineis.css">
 	<link rel="stylesheet" type="text/css" href="css/styleRodape.css">
-    <link rel="stylesheet" type="text/css" href="css/stylePainelEcolar.css">
+	<link rel="stylesheet" type="text/css" href="css/listMotorista.css">
 </head>
 <body>
 
@@ -23,19 +23,38 @@
 				</ul>	
 			</nav>		
 		</div>
-	</header>
+    </header>
+    
+    <div class="msgSucesso">
+        <p>MOTORISTA CADASTRADO COM SUCESSO!!!</p>
+    </div>
 
 	<div id="container">
     
-        <h1>PAINEL ESCOLAR</h1>
-            <nav id="navPainelEscolar">
-                <ul class="opcPaineis">
-                    <li><a href="cadMotorista.html">Cadastrar Motorista</a></li>
-                    <li><a href="listMotoristas.html">Lista de Motoristas Vinculados</a></li>
-					<li><a href="#">Adicionar Informações da Escola</a></li>
-					<li><a href="infoEscola.html">Ver Perfil da Escola</a></li>
-                </ul>
-            </nav>
+		<h1>PAINEL ESCOLAR</h1>
+		<H2>MOTORISTAS CADASTRADOS</H2>
+
+		<div class="divListMotoristas">
+            <ul class="listMotoristas">
+                <li>
+                    <h3 class="listH3">Perua Luz do Sol</h3>
+                    <h4 class="listH4">Motorista XXXX XXXXXXX XXXX</h4>
+                    <h4 class="listH4">Auxiliar XXXXXXX XXXX</h4>
+                </li>
+
+                <li>
+                    <h3 class="listH3">Perua Tio Beto</h3>
+                    <h4 class="listH4">Motorista XXXX XXXXXXX XXXX</h4>
+                    <h4 class="listH4">Auxiliar XXXXXXX XXXX</h4>
+                </li>
+            </ul>
+        </div>
+
+        <a href="painelEscola.html" class="aBtnVoltar">
+            <button type="voltar" value="voltar" id="voltar">VOLTAR</button>
+        </a>
+
+
 	</div>
 
 	<footer>
